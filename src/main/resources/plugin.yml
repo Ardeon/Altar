@@ -1,0 +1,11 @@
+name: Altar
+version: '${project.version}'
+main: io.github.ardeon.altar.AltarPlugin
+api-version: 1.19
+softdepend: [ Multiverse-Core, PlaceholderAPI ]
+
+commands:
+  altar:
+    description: добавление altar
+    usage: /altar или /altart world <имя мира>
+    permission: ru.ardeon.altar.admin
